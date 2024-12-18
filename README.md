@@ -20,7 +20,7 @@ Uma calculadora web simples e elegante para converter diferentes unidades de med
 
 ## Como Usar
 
-1. Acesse o site
+1. Acesse o site https://sui-ani.github.io/calculadora-unidades
 2. Digite o valor que deseja converter
 3. Selecione o tipo de conversão (comprimento ou área)
 4. Clique no botão com a conversão desejada
