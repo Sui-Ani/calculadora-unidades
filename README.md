@@ -14,6 +14,7 @@ Uma calculadora web simples e elegante para converter diferentes unidades de med
 
 ## Tecnologias Utilizadas
 
+- C
 - HTML5
 - CSS3
 - JavaScript
