@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Calculadora de Unidades</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="calculator-header">
+            <h1>Calculadora de Unidades</h1>
+        </div>
+        
+        <div class="calculator-screen">
+            <input type="number" id="input-value" placeholder="Digite o valor...">
+            <div id="result">Resultado aparecerá aqui</div>
+        </div>
+
+        <div class="calculator-type">
+            <button onclick="showConversionType('length')" class="type-btn active" id="length-btn">Comprimento</button>
+            <button onclick="showConversionType('area')" class="type-btn" id="area-btn">Área</button>
+        </div>
+
+        <div id="length-conversions" class="conversion-options">
+            <button onclick="convert('m-to-cm')">Metro → Centímetro</button>
+            <button onclick="convert('m-to-mm')">Metro → Milímetro</button>
+            <button onclick="convert('cm-to-m')">Centímetro → Metro</button>
+            <button onclick="convert('cm-to-mm')">Centímetro → Milímetro</button>
+            <button onclick="convert('mm-to-m')">Milímetro → Metro</button>
+            <button onclick="convert('mm-to-cm')">Milímetro → Centímetro</button>
+        </div>
+
+        <div id="area-conversions" class="conversion-options hidden">
+            <button onclick="convert('m2-to-cm2')">Metro² → Centímetro²</button>
+            <button onclick="convert('cm2-to-m2')">Centímetro² → Metro²</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
